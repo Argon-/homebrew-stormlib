@@ -3,10 +3,10 @@ require "formula"
 
 class Stormlib < Formula
   homepage 'http://www.zezula.net/en/mpq/main.html'
-  url 'https://github.com/stormlib/StormLib/archive/v9.00.tar.gz'
+  url 'https://github.com/stormlib/StormLib/archive/v9.00a.tar.gz'
   head 'https://github.com/stormlib/StormLib.git'
-  sha1 'aa715841bf0ab9a0037f1ce7d53ced03b717a8b2'
-  version '9.0'
+  sha1 '74bdda9309cce208d4982c9a1f5d740d246a9755'
+  version '9.0a'
 
 
   depends_on "cmake" => :build
